@@ -1,11 +1,8 @@
+import HomePage from "./pages/public/HomePage"
 
 
-function app() {
-  return (
-    <div className="App">
-      <h1>EcoVolt</h1>
-    </div>
-  )
+function App() {
+  return <HomePage/>
 }
 
-export default app
+export default App
